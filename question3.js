@@ -11,8 +11,8 @@ for(let i=0; i<numStr.length; i++){
 
 
 // Sorting array using Bubble Sort algorithm.
-for(let i=0; i<arrOfNum.length; i++) {
-    for(let j=0; j<arrOfNum.length-i-1; j++) {
+for(let i=0; i<arrOfNum.length; i++) {                    // n times
+    for(let j=0; j<arrOfNum.length-i-1; j++) {           // n times n (O(n^2))
         if(arrOfNum[j] > arrOfNum[j+1]) {
             // swapping the positions
             let temp = arrOfNum[j];
